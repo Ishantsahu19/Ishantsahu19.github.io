@@ -2,8 +2,8 @@
 
 Personal portfolio website for software engineering internship applications.
 
-**Live site:** [ishantsahu118-a11y.github.io](https://ishantsahu118-a11y.github.io)
-**GitHub profile:** [@ishantsahu118-a11y](https://github.com/ishantsahu118-a11y)
+**Live site:** [ishantsahu19.github.io](https://ishantsahu19.github.io)
+**GitHub profile:** [@Ishantsahu19](https://github.com/Ishantsahu19)
 **Email:** ishantsahu118@gmail.com
 
 ## About

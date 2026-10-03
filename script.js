@@ -7,7 +7,7 @@
 (function () {
   "use strict";
 
-  const GITHUB_USER = "ishantsahu118-a11y";
+  const GITHUB_USER = "Ishantsahu19";
   const STATS_CACHE_KEY = "gh-stats-" + GITHUB_USER;
   const STATS_CACHE_TTL = 15 * 60 * 1000; // 15 minutes
   const STORAGE_KEY = "portfolio-theme";
