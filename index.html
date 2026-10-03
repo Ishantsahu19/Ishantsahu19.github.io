@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ishant Sahu — Software Developer</title>
+<meta name="description" content="Ishant Sahu — software developer working across C++ systems and full-stack web development with Python, Django and SQL. Open to software engineering internships.">
+<meta name="author" content="Ishant Sahu">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ishant Sahu — Software Developer">
+<meta property="og:description" content="Software developer building with C++, Python, Django and JavaScript. Open to internships.">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#about">Skip to content</a>
+
+<div class="status-bar" role="status">
+  <span class="status-dot" aria-hidden="true"></span>
+  <span class="status-text">Open to software engineering internships</span>
+  <a class="status-link" href="#contact">Get in touch &rarr;</a>
+</div>
+
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a class="navbar-brand" href="#top">ishant<span class="dot">.</span>sahu</a>
+
+    <button class="nav-toggle" id="navToggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <div class="nav-menu" id="navMenu">
+      <ul class="nav-list">
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#github">GitHub</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="theme-toggle" id="themeToggle" type="button" aria-label="Switch to light theme" title="Switch theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><g class="sun-rays"><path d="M12 1.8v2.6M12 19.6v2.6M22.2 12h-2.6M4.4 12H1.8M19.2 4.8l-1.9 1.9M6.7 17.3l-1.9 1.9M19.2 19.2l-1.9-1.9M6.7 6.7L4.8 4.8"/></g></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.6A8.6 8.6 0 0 1 9.4 3.5a8.6 8.6 0 1 0 11.1 11.1Z"/></svg>
+        </button>
+        <a class="btn btn-accent btn-resume" href="resume.pdf" download>Resume</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<header id="top" class="hero">
+  <canvas class="hero-canvas" id="heroCanvas" aria-hidden="true"></canvas>
+  <div class="hero-aurora" aria-hidden="true"></div>
+  <div class="hero-grid-lines" aria-hidden="true"></div>
+
+  <div class="container hero-inner">
+    <p class="hero-eyebrow"><span class="prompt">$</span> whoami</p>
+    <h1 class="hero-name">Ishant Sahu</h1>
+    <p class="hero-role">
+      <span class="typed" id="typed">&nbsp;</span><span class="caret" aria-hidden="true"></span>
+    </p>
+    <p class="hero-tagline">
+      I build things end to end — from memory management and data structures in C++
+      to complete web applications with Python, Django and SQL. Currently looking for a
+      software engineering internship where I can contribute to real production code.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-accent">View Projects</a>
+      <a href="https://github.com/ishantsahu118-a11y" target="_blank" rel="noopener" class="btn btn-outline-custom">GitHub</a>
+      <a href="#contact" class="btn btn-outline-custom">Contact Me</a>
+    </div>
+
+    <ul class="hero-stats" id="heroStats">
+      <li><span class="stat-value" data-count-to="1" data-suffix="">1</span><span class="stat-label">Live project shipped</span></li>
+      <li><span class="stat-value" data-count-to="0" data-gh="repos">—</span><span class="stat-label">Public repos</span></li>
+      <li><span class="stat-value" data-count-to="0" data-gh="followers">—</span><span class="stat-label">GitHub followers</span></li>
+    </ul>
+  </div>
+
+  <a class="scroll-cue" href="#about" aria-label="Scroll to about section">
+    <span class="scroll-cue-line" aria-hidden="true"></span>
+    <span>scroll</span>
+  </a>
+</header>
+
+<main>
+
+  <section id="about" class="section">
+    <div class="container">
+      <p class="section-label reveal">01 / About</p>
+      <div class="row g-4 align-items-start">
+        <div class="col-lg-7">
+          <p class="about-text reveal">
+            I'm a software developer in the making, comfortable moving between low-level systems work
+            and full-stack web development. I enjoy understanding how things work underneath —
+            from memory and data structures in C/C++, to shipping complete web applications with
+            Python, Django, and SQL. Right now, I'm focused on turning that foundation into real,
+            finished projects that other people can actually use.
+          </p>
+          <p class="about-text reveal">
+            I work best in a team where code gets reviewed properly, where I can learn from more
+            experienced engineers, and where shipping a small, correct change matters as much as an
+            ambitious one.
+          </p>
+        </div>
+        <div class="col-lg-5">
+          <ul class="fact-list reveal">
+            <li>
+              <span class="fact-label">Focus</span>
+              <span class="fact-value">Backend &amp; full-stack development</span>
+            </li>
+            <li>
+              <span class="fact-label">Currently</span>
+              <span class="fact-value">Seeking a software engineering internship</span>
+            </li>
+            <li>
+              <span class="fact-label">Strengths</span>
+              <span class="fact-value">Problem solving, clean code, learning fast</span>
+            </li>
+            <li>
+              <span class="fact-label">Working style</span>
+              <span class="fact-value">Git-first, small PRs, asks early</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <p class="section-label reveal">02 / Skills</p>
+      <h2 class="section-title reveal">What I work with</h2>
+
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="skill-group reveal">
+            <h3 class="skill-group-title">Languages</h3>
+            <div class="skill-tags">
+              <span class="tag">C++</span>
+              <span class="tag">C</span>
+              <span class="tag">Java</span>
+              <span class="tag">Python</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">SQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-group reveal">
+            <h3 class="skill-group-title">Frameworks &amp; Libraries</h3>
+            <div class="skill-tags">
+              <span class="tag">Django</span>
+              <span class="tag">Bootstrap</span>
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-group reveal">
+            <h3 class="skill-group-title">Tools &amp; Workflow</h3>
+            <div class="skill-tags">
+              <span class="tag">Git</span>
+              <span class="tag">GitHub</span>
+              <span class="tag">VS Code</span>
+              <span class="tag">Postman</span>
+              <span class="tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="skill-group reveal">
+            <h3 class="skill-group-title">Currently Learning</h3>
+            <div class="skill-tags">
+              <span class="tag tag-accent">REST API Design</span>
+              <span class="tag tag-accent">DSA &amp; Algorithms</span>
+              <span class="tag tag-accent">Linux</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <p class="section-label reveal">03 / Projects</p>
+      <h2 class="section-title reveal">Things I have built</h2>
+
+      <div class="row g-4">
+
+        <div class="col-md-6">
+          <article class="project-card reveal">
+            <p class="project-index">01</p>
+            <h3>Smart Parking System</h3>
+            <p class="project-desc">
+              A multi-floor parking management system handling vehicle entry and exit,
+              real-time slot availability, VIP parking, and dynamic pricing based on
+              demand. Built to apply core OOP principles to a practical problem.
+            </p>
+            <ul class="project-bullets">
+              <li>Modelled floors, slots and vehicles as separate C++ classes</li>
+              <li>Entry/exit records with automatic slot allocation</li>
+              <li>Pricing that changes with occupancy level</li>
+            </ul>
+            <div class="project-tags">
+              <span class="tag-sm">C++</span>
+              <span class="tag-sm">OOP</span>
+              <span class="tag-sm">Data Structures</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/ishantsahu118-a11y/Smart-Parking-System" target="_blank" rel="noopener">View on GitHub &rarr;</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="col-md-6">
+          <article class="project-card reveal">
+            <p class="project-index">02</p>
+            <h3>Django Web Application</h3>
+            <p class="project-desc">
+              Full-stack application with authentication, relational database models,
+              and a working admin panel. Currently in progress and being refined into
+              something I can demo end to end.
+            </p>
+            <ul class="project-bullets">
+              <li>User authentication and session handling</li>
+              <li>Normalised schema with Django ORM and admin panel</li>
+              <li>Bootstrap UI with server-rendered templates</li>
+            </ul>
+            <div class="project-tags">
+              <span class="tag-sm">Python</span>
+              <span class="tag-sm">Django</span>
+              <span class="tag-sm">SQL</span>
+            </div>
+            <div class="project-links">
+              <span class="coming-soon">In progress</span>
+            </div>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="github" class="section section-alt">
+    <div class="container">
+      <p class="section-label reveal">04 / GitHub</p>
+      <h2 class="section-title reveal">Where I write code</h2>
+      <p class="section-intro reveal">
+        Most of my practice and side projects live here. Numbers below are pulled live
+        from the GitHub API.
+      </p>
+
+      <div class="row g-4">
+        <div class="col-sm-4">
+          <div class="gh-stat reveal">
+            <span class="stat-value" data-count-to="0" data-gh="repos">—</span>
+            <span class="stat-label">Public repositories</span>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="gh-stat reveal">
+            <span class="stat-value" data-count-to="0" data-gh="followers">—</span>
+            <span class="stat-label">Followers</span>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="gh-stat reveal">
+            <span class="stat-value" data-count-to="0" data-gh="following">—</span>
+            <span class="stat-label">Following</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="gh-repos reveal" id="ghRepos">
+        <p class="gh-repos-label">Recently pushed</p>
+        <ul class="repo-list" id="repoList">
+          <li class="repo-placeholder">Loading repositories&hellip;</li>
+        </ul>
+      </div>
+
+      <a class="btn btn-outline-custom mt-4 reveal" href="https://github.com/ishantsahu118-a11y" target="_blank" rel="noopener">
+        See full profile on GitHub
+      </a>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <p class="section-label reveal">05 / Contact</p>
+      <h2 class="section-title reveal">Let's talk</h2>
+      <p class="contact-intro reveal">
+        Open to software engineering internships and collaborative projects. If you are
+        hiring or reviewing code, I would be glad to hear from you — email is the fastest way.
+      </p>
+
+      <ul class="contact-list">
+        <li class="reveal">
+          <span class="contact-label">Email</span>
+          <a href="mailto:ishantsahu118@gmail.com">ishantsahu118@gmail.com</a>
+        </li>
+        <li class="reveal">
+          <span class="contact-label">GitHub</span>
+          <a href="https://github.com/ishantsahu118-a11y" target="_blank" rel="noopener">github.com/ishantsahu118-a11y</a>
+        </li>
+        <li class="reveal">
+          <span class="contact-label">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/ishant-sahu-8767b1370/" target="_blank" rel="noopener">linkedin.com/in/ishant-sahu</a>
+        </li>
+        <li class="reveal">
+          <span class="contact-label">Resume</span>
+          <a href="resume.pdf" download>Download PDF</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> Ishant Sahu. Built with HTML, CSS &amp; vanilla JavaScript.</p>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" type="button" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4.5 20 14h-5v5.5H9V14H4Z"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
